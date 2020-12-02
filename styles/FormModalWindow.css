@@ -1,0 +1,140 @@
+
+        .Window {
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.7);
+          z-index: 99999;
+          transition: opacity 400ms ease-in;
+          display: none;
+          pointer-events: none;
+        }
+        
+        .Window:target {
+          display: block;
+          pointer-events: auto;
+        }
+        
+        .Window>div {
+          width: 740px; 
+          position: relative;
+          margin: 10px auto;
+          background: url("images/background.jpg") no-repeat;
+          background-position: 74px -50px;
+          background-size: 925px 640px;
+          box-shadow: 0px 0px 20px 2px;
+          background-color: white;
+        }
+        
+        .close {
+            position: absolute;
+            right: -10px;
+            top: -7px;
+            left: 750px;
+        }
+        
+        .share {
+          position: absolute;
+          right:12px;
+          top: 52px;
+          left: 992px;
+        }
+        
+        .fbshare {
+          position: absolute;
+          right: -12px;
+          top: 509px;
+          left: 992px;
+        }
+        
+        .twshare {
+          position: absolute;
+          right: -12px;
+          top: 546px;
+          left: 992px;
+        }
+        
+        
+        .leftcol {
+          width: 200px;
+          height: 590px;
+          float: left;
+          background: url("images/lcolb.jpg") no-repeat;
+        }
+        
+        .rigcol {
+          width: 45px;
+          height: 590px;
+          float: right;
+          background-color: white;
+        }
+        
+        .learn {
+          position: relative;
+          top: -58px;
+          width: 260px;
+          height: 50px;
+          background-color: #0066cc;
+          float: right;
+        }
+        
+        .learnT {
+          font-size: 20px;
+          margin-right: 50px;
+        }
+        
+        .learn:hover {
+          background: #3399FF;
+        }
+        
+        .learn:hover a {
+          color: #fff
+        }
+        
+        .Tfind {
+          margin-top: 477px;
+          font-size: 8px;
+          font-weight: bold;
+          text-align: center;
+        }
+        
+        .Thorizont {
+          margin: 0;
+          position: relative;
+          top: -20px;
+          left: 211px;
+          color: white;
+        }
+        
+        .hr2 {
+          width: 1px;
+          height: 30px;
+          background-color: white;
+          position: fixed;
+          left: 438px;
+          top: 600px;
+        }
+        
+        .img1 {
+          margin-left: 86px;
+          margin-top: 10px;
+        }
+        
+        .img1 {
+          margin-left: 46px;
+          margin-top: 12px;
+        }
+        
+        .img2 {
+          margin-top: 89px;
+          margin-left: 15px;
+        }
+        
+        .videocontent {
+          width: 785px;
+          height: 443px;
+          margin-top: 107px;
+        }
+        

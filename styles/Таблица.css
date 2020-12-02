@@ -1,0 +1,18 @@
+p.table {
+    color: #1b0303; 
+    text-indent: 1em;
+    font-family: cursive; 
+    font-size:16px; 
+    margin-inline-start: 5px; 
+    margin-inline-end: 5px;
+    
+
+}
+
+tr.even {
+    background: #7bc9ab; 
+}
+td.border, th.border {
+    padding: 0px; /* Поля вокруг содержимого таблицы */
+    border:3px solid rgb(81, 116, 161); 
+}

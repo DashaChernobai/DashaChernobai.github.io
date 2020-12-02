@@ -1,0 +1,45 @@
+p.pudding {
+    color: #1b0303; 
+    text-indent: 3em; 
+    font-family: cursive; 
+    font-size:16px; 
+}
+
+p.link {
+    color: #1b0303; 
+    text-indent: 2em; 
+    font-family: cursive; 
+    font-size:18px; 
+    text-align:left;
+}
+
+ol {
+    margin-right: 5px;
+    font-family: cursive;
+    font-size:16px;
+    padding-right: 0px;
+    text-align:left;
+   }
+
+ul {
+    margin-right: 5px;
+    font-family: cursive;
+    font-size:16px;
+    padding-right: 10px;
+    text-align:left;
+   }
+
+   a:link {
+    color: #0c0381; /* Цвет ссылок */
+   }
+   a:visited {
+    color: #6055c9; /* Цвет посещенных ссылок */
+   }
+
+   ul strong { color:rgb(41, 6, 73) }
+   ol strong { color:rgb(41, 6, 73) }
+
+   p:first-letter {
+	font-family: cursive;
+	font-size: 120%;
+    }

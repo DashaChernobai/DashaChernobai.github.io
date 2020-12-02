@@ -1,0 +1,27 @@
+h1 { 
+    /*отступ сверху*/
+    padding: 50px;
+    color: #06233b; 
+    font-family: cursive; 
+    font-size:40px;
+    text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+    align-content: center;
+}
+
+h2 { 
+    
+    font-size: 180%; 
+    font-family: cursive; 
+    color: #061750;
+    text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+h3 { 
+    font-size: 140%; 
+    text-indent: 1em; 
+    font-family: cursive; 
+    color: #06233b;
+    text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+    text-align:center;
+}
+

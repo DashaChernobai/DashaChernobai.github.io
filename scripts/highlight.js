@@ -1,0 +1,2 @@
+
+highlightTableRows("myTable","hoverRow","clickedRow");

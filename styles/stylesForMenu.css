@@ -1,0 +1,33 @@
+/* Сбросим дефолтные отступы для демонстрации */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.headerpart{
+    background:#D9FBE7;
+    width: 100%;  
+    height: 200px;
+}
+.nav{
+    background:#D9FBE7;
+    width: 100%;
+    height: 125px;
+}
+.mainpart{
+    background:#D9FBE7;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Будем присваивать этот класс, чтобы блок прилипал */
+.sticky{
+    position: fixed;
+    top: 0;
+}
+
+/* Добавляем отступ равный высоте меню к контенту */
+.sticky + .mainpart{
+    padding-top: 50px;
+}

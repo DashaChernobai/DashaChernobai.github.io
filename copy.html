@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head >
+ 
+    <title>Главная страница</title>
+        
+        
+    
+    <link rel="stylesheet" href="styles\bloc.css">
+    <link rel="stylesheet" href="styles\Заголовки.css">
+    <link rel="stylesheet" href="styles\Текст.css">
+    <link rel="stylesheet" href="styles\Картинки.css">
+    <link rel="stylesheet" href="styles\Разное.css">
+    <link rel="stylesheet" href="styles\Меню.css">
+    <link rel="stylesheet" href="styles\Таблица.css">
+    
+    <link rel="stylesheet" href="styles\PageLoading.css">
+    <link rel="stylesheet" href="styles\stylesForMenu.css">
+    <script src="scripts\openModalWindow.js"> </script>
+    <link rel="stylesheet" href="styles\FormModalWindow.css">
+    <script src="scripts\PageLoading.js"> </script>
+    <script src="scripts\ShowParts.js"> </script>
+    <script src="scripts\HotKeys.js"> </script>
+    
+
+    
+  </head>
+  <body class="body_hide">
+
+<header>
+    <div id="headerpart" class="headerpart">
+
+        <div class="imgbloc"><img src="images\cat1.jpg" width=100%  height:200px; ></div>
+        <div class="header"><h1>Салем - кот ворюга или Король Лев</h1></div>
+
+    </div>
+</header>
+
+
+<nav>
+    <div id="nav" class="nav">
+
+        
+        <div class="menu" >
+            <table  align-self="center" width=100% border=3px>
+                <tr>
+                    <td class="border" width=20.2% align="center"><p Class="menu"><a href="index.html" id=1>Главная страница</a></p></td>
+                    <td class="border" width="130" align="center"><p Class="menu"><a href="2nd.html" id=2>Факты про ориенталов</a></p></td>
+                    <td class="border" width="150" align="center"><p Class="menu"><a href="3rd.html" id=3>Воспитание: что важно знать</a></p></td>
+                    <td class="border" width="130" align="center"><p Class="menu"><a href="4th.html" id=4>Уход и содержание</a></p></td>
+                    <td class="border" width="120" align="center"><p Class="menu"><a href="5th.html" id=5>Одежда для котов</a></p></td>
+                    <td class="border" width="110" align="center"><p Class="menu"><a href="6th.html" id=6>Топ самых богатых котов мира</a></p></td>
+                    <td class="border" width="110" align="center"><p Class="menu"><a href="7th.html" id=7>Кошачьи цитаты</a></p></td>
+                    <td class="border" width=20.2% align="center"><p Class="menu"><a href="8th.html" id=8>Отправить сообщение</a></p></td>
+                </tr>
+            </table> 
+        </div>
+
+
+
+    </div>
+</nav>
+
+
+
+    <div id="mainpart" class="mainpart">
+
+
+    <aside>
+        <div class="left">
+            <div>
+                <a href="javascript:void(0)" onclick="showHide('block_id')">
+                    <p>
+                        <font size="5" color= #2e0b5c>Скрыть/Показать информацию о Салеме
+
+                        </font>
+                    </p>
+                </a>
+                <br/>
+            </div>
+                        
+            <div id="block_id" style="display: none;">
+                <ul type="disc">
+                    <p>
+                        <p Class="list"><strong>Информация о Салеме:</strong></p>
+                        <li>1 голова</li>
+                        <li>2 ухолокатора</li>
+                        <li>4 лапки-царапки</li>
+                        <li>1 пушистый хвост</li>
+                        <li>1 тяжелая тушка</li>
+                    </p> 
+                </ul>    
+                <hr/>     
+                <ol>        
+                    <p>       
+                        <p Class="list"><strong>Любимая еда:</strong></p>
+                        <li>Курица (желательно украденная)</li>
+                        <li>Капуста</li>
+                        <li>Зубная паста для кошек со вкусом сыра</li>
+                    </p>
+                </ol>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <div class="content">
+            <h2>История происхождения</h2>
+            <p Class="text" align="left">
+                Первые упоминания об ориенталах встречаются еще в древних рукописях Сиама 
+                (современного Тайланда), в которых описывались полностью окрашенные животные, 
+                без характерных отметин на мордочке, лапах и хвосте. «Восточная кошка» - именно 
+                так переводится название породы – долгое время не покидала пределы своей исторической 
+                родины. Дело в том, что ориенталы, как и ближайшие собратья сиамцы, считались 
+                священными животными и жили в буддийских храмах. Король Сиама лично подписал указ, 
+                запрещающий вывоз кошек за границу. И лишь в конце 19 века прародители ориенталов 
+                появились в Англии, потом в США, а позже распространились по всему миру.
+            </p>
+                
+            <p Class="text" align="left">
+                    Современные ориентальные кошки появились в середине 20 века в результате 
+                    скрещивания сиамов с другими короткошерстными кошками. Официальное же 
+                    признание порода получила в 1974 году в Англии, а в 1987 годы ориенталы 
+                    появились и в современного. В настоящее время «восточные» и сиамские кошки
+                     относятся к одной породной группе и имеют общие стандарты.
+            </p>
+        </div>
+    </main>
+
+
+
+        
+    <aside>
+        <div class="right" class="modal-header">
+
+            <div class="bloc"> 
+                <div>
+                    <a href="#ModalOpen1" title="">
+                        <img src="images\cat2.jpg" class="image">
+                    </a>  
+                    <div id="ModalOpen1" class="Window">
+                        <div>
+                            <a href="#close" title="Закрыть" class="close">X</a>
+                            <img src="images\cat2.jpg" height="600"/>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+          
+    
+        
+        
+            <div class="bloc">
+                <div>
+                    <a href="#ModalOpen2" title="">
+                        <img src="images\cat3.jpg" class="image">
+                    </a>
+                    <div id="ModalOpen2" class="Window">
+                        <div>
+                            <a href="#close" title="Закрыть" class="close">X</a>
+                            <img src="images\cat3.jpg" height="450"/>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+        
+            <div class="bloc">
+                <div>
+                    <a href="#ModalOpen3" title="">
+                        <img src="images\cat4.jpg" class="image">
+                    </a>
+                    <div id="ModalOpen3" class="Window">
+                        <div>
+                            <a href="#close" title="Закрыть" class="close">X</a>
+                            <img src="images\cat4.jpg" height="550" />
+                        </div>
+                    </div>
+                </div>   
+            </div> 
+        </div>
+    </aside>
+    
+   
+    
+    
+    <footer>
+        
+        <p Class="pudding">Сайт создала Чернобай Дарья ИТШИ-19-2</p>
+    
+    </footer>
+
+    </div>
+
+
+    </div>
+
+    <script src="scripts\scrolMenu.js"> </script>
+  </body>
+</html>
